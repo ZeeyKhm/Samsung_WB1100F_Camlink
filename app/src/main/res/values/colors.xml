@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#0F766E</color>
+    <color name="brand_dark">#0B4F4A</color>
+    <color name="brand_light">#CCFBF1</color>
+    <color name="accent">#F59E0B</color>
+    <color name="scrim">#66000000</color>
+    <color name="placeholder">#E6E8E6</color>
+    <color name="placeholder_dark">#2A2E2C</color>
+</resources>

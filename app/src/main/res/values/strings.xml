@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CamLink</string>
+    <string name="app_subtitle">WB1100F photo transfer</string>
+
+    <string name="status_idle_title">Not connected</string>
+    <string name="status_idle_body">1. Camera: Wi-Fi → MobileLink (camera\'s own Wi-Fi) or Samsung Link → Nearby devices (same Wi-Fi as the phone).\n2. Phone: join the camera\'s network and keep it.\n3. Tap Find camera. If the camera asks whether to allow this phone, choose Allow / OK.</string>
+    <string name="status_searching_title">Looking for the camera…</string>
+    <string name="status_searching_body">Keep the phone on the camera\'s Wi-Fi network.</string>
+    <string name="status_error_title">Camera connection problem</string>
+    <string name="status_connected_title">%1$s</string>
+    <string name="status_connected_body">%1$s · %2$s\nTap a photo to select or deselect it, then tap Download.</string>
+
+    <string name="btn_find">Find camera</string>
+    <string name="btn_wifi">Wi-Fi settings</string>
+    <string name="btn_ip">Enter camera IP</string>
+    <string name="btn_diagnose">Diagnose connection</string>
+    <string name="btn_stop">Stop</string>
+
+    <string name="count_none">No photos yet</string>
+    <string name="count_files">%1$d photos and videos</string>
+    <string name="select_all">Select all</string>
+    <string name="select_none">Clear</string>
+    <string name="selected_n">%1$d selected</string>
+    <string name="download_n">Download %1$d</string>
+    <string name="download">Download</string>
+
+    <string name="empty_title">No photos yet</string>
+    <string name="empty_body">Connect to the camera, then tap Find camera.</string>
+    <string name="empty_loading">Reading the camera\'s card…</string>
+
+    <string name="summary_saved">Saved %1$d · skipped %2$d · failed %3$d</string>
+    <string name="summary_folder">Files are in Pictures/CamLink and Movies/CamLink.</string>
+
+    <string name="dialog_ip_title">Camera address</string>
+    <string name="dialog_ip_hint">192.168.1.1 or 192.168.1.1:7676</string>
+    <string name="dialog_ip_help">The gateway shown in the phone\'s Wi-Fi details. MobileLink cameras are often 192.168.101.1. You can add a port if the camera uses one.</string>
+    <string name="dialog_ip_error">That does not look like an address. Try 192.168.1.1.</string>
+    <string name="action_details">Connection details</string>
+    <string name="action_diagnose">Diagnose connection</string>
+    <string name="action_about">About CamLink</string>
+
+    <string name="diagnose_running_title">Checking the network…</string>
+    <string name="diagnose_running_body">Looking at Wi-Fi, SSDP, the device description and camera web pages. This can take up to a minute.</string>
+    <string name="diagnose_report_title">CamLink diagnostic report</string>
+    <string name="diagnose_copy">Copy</string>
+    <string name="diagnose_share">Share</string>
+    <string name="diagnose_close">Close</string>
+    <string name="diagnose_copied">Report copied to the clipboard.</string>
+
+    <string name="details_name">Camera</string>
+    <string name="details_model">Model</string>
+    <string name="details_vendor">Vendor</string>
+    <string name="details_ip">Address</string>
+    <string name="details_files">Files</string>
+    <string name="details_service">Content directory</string>
+
+    <string name="status_downloading_title">Saving to your gallery…</string>
+    <string name="status_downloading_body">%1$d of %2$d · %3$s</string>
+    <string name="status_speed">%1$s/s</string>
+    <string name="photo_selected">%1$s, selected</string>
+    <string name="photo_unselected">%1$s, not selected</string>
+    <string name="about_text">CamLink talks to Samsung Wi-Fi cameras over standard DLNA/UPnP, the same protocol the camera already exposes for Samsung Link and Mobile Link.\n\nIt never writes to the camera and never deletes anything. Downloads go to Pictures/CamLink (photos) and Movies/CamLink (videos).\n\nBuilt for the WB1100F, but works with any Samsung camera that publishes a ContentDirectory service.</string>
+    <string name="details_none">Connect to the camera first.</string>
+
+    <string name="error_no_camera">No camera found on this network.\n\nCheck that the phone is joined to the camera\'s Wi-Fi and the camera is in MobileLink or Samsung Link (Nearby devices) mode. If it still fails, open the menu and tap Diagnose connection, then share the report.</string>
+    <string name="error_camera_denied">The camera refused access (HTTP 401).\n\nCamLink sent the same pairing request the Samsung app uses. Look at the camera screen: if it asks whether to allow this phone, choose Allow / OK.\n\nMobileLink: stay on the MobileLink screen, then tap Find camera again.\nSamsung Link: press Menu → DLNA Access Control → All devices.</string>
+    <string name="error_manual">Could not reach a camera at %1$s.\n\nCheck the address and that the phone is on the camera\'s Wi-Fi network.</string>
+    <string name="error_no_content">Found %1$s, but it has no ContentDirectory service. Send the connection details from the menu so the protocol can be checked.</string>
+    <string name="error_network">Network error: %1$s</string>
+    <string name="error_nothing_selected">Select at least one photo.</string>
+</resources>
