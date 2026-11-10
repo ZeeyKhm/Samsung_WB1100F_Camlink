@@ -191,3 +191,9 @@ app/src/main/java/com/camlab/camlink/
   ui/MainActivity.kt  screens, dialogs, state rendering
   ui/PhotoAdapter.kt  thumbnail grid with selection
 ```
+
+## License
+
+CamLink is released under the [MIT License](LICENSE). You are free to use,
+modify and share it, including commercially, as long as the copyright notice
+and permission notice are kept.
