@@ -45,20 +45,25 @@ MobileLink mode).
 
 The easiest way is the
 [CamLink 1.5 release](https://github.com/ZeeyKhm/Samsung_WB1100F_Camlink/releases/tag/v1.5):
-download `CamLink-1.5-debug.apk` and open it on the phone.
+download **`CamLink-1.5.apk`** and open it on the phone.
 
-The APK is also kept in the repository:
+That file is the signed release build: not debuggable, and the one to use for
+normal sideloading. It is also kept in the repository:
 
 ```
-dist/CamLink-1.5-debug.apk
+dist/CamLink-1.5.apk
 ```
 
 Copy it to the phone and open it (allow installing unknown apps when prompted),
 or with the phone connected over USB:
 
 ```powershell
-adb install -r dist/CamLink-1.5-debug.apk
+adb install -r dist/CamLink-1.5.apk
 ```
+
+`dist/CamLink-1.5-debug.apk` is kept only for ADB/testing. Debug builds are
+signed with a different key, so if you installed one earlier, uninstall it
+before installing the release build — Android will not update across keys.
 
 Requirements: Android 10 or newer (`minSdk 29`). The release targets Android 14
 (`targetSdk 34`) deliberately, so Android 16's local-network permission gate
