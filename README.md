@@ -43,7 +43,11 @@ MobileLink mode).
 
 ## Install
 
-The debug APK is at:
+The easiest way is the
+[CamLink 1.5 release](https://github.com/ZeeyKhm/Samsung_WB1100F_Camlink/releases/tag/v1.5):
+download `CamLink-1.5-debug.apk` and open it on the phone.
+
+The APK is also kept in the repository:
 
 ```
 dist/CamLink-1.5-debug.apk
